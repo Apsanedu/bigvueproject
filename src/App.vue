@@ -56,7 +56,7 @@ export default {
 </style>
 <template>
 <header>
-  <h1>List of Frieds</h1>
+  <h1>List of Friends, I guess!</h1>
 </header>
 <h2>Input Friends</h2>
 <new-friend @add-contact="addContact"></new-friend>
@@ -69,6 +69,7 @@ export default {
   :is-favorite = "friend.isFavorite"
   @favorite-toggle = "toggleFavoriteStatus"
  > </friend-contact>
+
 </ul>
 </template>
 
